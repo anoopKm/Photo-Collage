@@ -1,0 +1,77 @@
+.toolbar
+{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+#upload{
+    border: 10px dashed #ccc;
+    width: 150px;
+    min-height: 125px;
+    margin: 20px auto;
+    text-align: center;
+}
+.gallery{
+    border-top: 1px solid black;
+    top:520px !important;
+    position: fixed;
+}
+
+.draggable
+{
+    position: relative; 
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    zoom: 1;
+    *display: inline;   
+    outline: none;
+    cursor: hand; 
+    cursor: pointer;       
+}
+
+.resizable
+{
+    width: 50%;   
+    border: 1px solid blue;   
+}
+
+.resizable img
+{
+    width: 100%;   
+}
+
+.ui-resizable-handle 
+{
+    background: blue;
+    border: 1px solid #FFF;
+    width: 9px;
+    height: 9px;
+    
+    z-index: 2;
+}
+.ui-resizable-se
+{
+    right: -5px;
+    bottom: -5px;
+}
+
+.ui-rotatable-handle {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    background-image: url(https://cdn4.iconfinder.com/data/icons/paint-soft/512/arrow_refresh_business_group_web_application_rotate-128.png);
+    background-size: 100%;
+    left: 2px;
+    bottom: 2px;
+    position: absolute;
+    top: -5px;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+#workspace{
+    margin-top: 25px;
+}
